@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="info_string1">1- On the To Do List page, you can see what you have saved before. Clicking on the trash will delete the current data. If you press and hold for a long time, you can add the selected task to the finished section.</string>
+    <string name="info_string2">2- You can add a new to do list on the Add To Do List page.</string>
+    <string name="info_string3">3- On the Finished List page, you can see the to do lists you have completed and delete them.</string>
+
+</resources>

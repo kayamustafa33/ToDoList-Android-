@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Fragments.AddItemFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/todolist"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New To Do List"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your title"
+        android:inputType="text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/add_bg"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_text_fields_24"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your text"
+        android:inputType="text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/add_bg"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_text_fields_24"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/authorName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Author Name"
+        android:paddingStart="12dp"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="8dp"
+        android:background="@drawable/add_bg"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:inputType="date"
+        android:hint="Date"
+        android:paddingStart="12dp"
+        android:drawableStart="@drawable/ic_baseline_date_range_24"
+        android:drawablePadding="8dp"
+        android:background="@drawable/add_bg"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Create"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
